@@ -1,0 +1,166 @@
+#gjs {
+  border: none;
+}
+/* Theming */
+
+/* Primary color for the background */
+.gjs-one-bg {
+  background-color: #023e68;
+}
+
+/* Secondary color for the text color */
+.gjs-two-color {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Tertiary color for the background */
+.gjs-three-bg {
+  background-color: #ec5896;
+  color: white;
+  }
+.panel__switcher{
+  margin-right: 30px;
+  
+}
+/* Quaternary color for the text color */
+.gjs-four-color,
+.gjs-four-color-h:hover {
+  color: #FF851B;
+  opacity: 0.6;
+  transition: 0.5s;
+}
+.gjs-block__media{
+  width: 0%;
+  height: 0%;
+}
+  
+  .gjs-cv-canvas {
+    top: 0;
+    width: 100%;
+    height: 98.25%;
+  }
+
+  .gjs-block {
+    width: auto;
+    height: auto;
+    
+  }
+
+  .panel__top {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    position: initial;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  .panel__basic-actions {
+    position: initial;
+  }
+
+  .editor-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    height: 79vh;
+  }
+  
+  .editor-canvas {
+    flex-grow: 1;
+  }
+  
+  .panel__right {
+    flex-basis: 300px;
+    position: relative;
+    overflow-y:auto;
+  }
+
+  .panel__switcher {
+    position: initial;
+    
+  }
+  .gjs-clm-sels-info {
+    
+    height: 399.2px;
+    margin: 7px 0;
+    text-align: left;
+}
+
+.panel__devices {
+  position: initial;
+}
+.fa-desktop{
+  content: url(./icon/desktop.png);
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+}
+.fa-tablet{
+  content: url(./icon/tablet.png);
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  
+}
+.fa-mobile{
+  content: url(./icon/phone.png);
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+
+}
+.fa-styel{
+  content: url(./icon/css.png);
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+
+}
+.fa-layers{
+  content: url(./icon/layers.png);
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+
+}
+.fa-code{
+  content: url(./icon/code.png);
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+
+}
+.fa-blocks{
+  content: url(./icon/plus.png);
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.fa-clear{
+  content: url(./icon/delete.png);
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.fa-text{
+  content: url(./icon/text.png);
+  width: 40px;
+  height: 40px;
+}
+.fa-full{
+  content: url(./icon/full.png);
+  width: 40px;
+  height: 40px;
+}
+@media only screen and (max-width: 600px ) {
+  .panel__right {
+    flex-basis: 150px;
+    position: relative;
+    overflow-y:auto;
+  }
+  .panel__devices {
+    display: none;
+  }
+}

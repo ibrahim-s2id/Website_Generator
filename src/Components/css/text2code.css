@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.text_area {
+    width: 500px;
+    height: 300px;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+
+}
+
+.img_ge_text_result {
+    width: 450px;
+    height: 400px;
+    margin-top: 25px;
+    border-radius: 5px;
+    margin-left: 250px;
+}
+.all_box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 50px;
+}
+
+.box1 {
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    margin:20px;
+    box-shadow: -4px 10px 35px -1px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.btn_control_record {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.br button {
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    background-color: #f84301;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 5px;
+    border: none;
+}
+.brr{
+    display: flex;
+    justify-content: center;
+}
+.brr button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #f84301;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 5px;
+    border: none;
+}
+@media only screen and (max-width: 600px ) {
+    .text_area {
+        margin: 0 20px;
+    }
+    .box1{
+        width: 90%;
+        height: 350px;
+    }
+    .box1 button{
+        font-size: 15px;
+    }
+}
